@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/frost"
+    tools:context=".auth.SignInFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="@dimen/_320sdp"
+                android:layout_height="@dimen/_300sdp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/signinlogo"/>
+            <ImageView
+                android:layout_width="65.00dp"
+                android:layout_height="65.00dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="13.00dp"
+                android:src="@drawable/mainlogo1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="13.00dp"
+                android:text="Let nature inspire your space"
+                android:textStyle="bold"
+                android:textSize="22.10sp"
+                android:textColor="@color/irishgreen"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:text="Login or Signup"
+                android:textSize="16.90sp"
+                />
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="26.00dp"
+                android:layout_marginTop="19.50dp"
+                app:boxCornerRadiusBottomEnd="16.90dp"
+                app:boxCornerRadiusBottomStart="16.90dp"
+                app:endIconMode="clear_text"
+                app:boxCornerRadiusTopStart="16.90dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etUserNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="9.10dp"
+                    android:hint="Enter mobile number"
+                    android:inputType="number"
+                    android:textColor="@color/black"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:id="@+id/btnContinue"
+                android:layout_height="58.50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="26.00dp"
+                android:layout_marginTop="6.50dp"
+                android:backgroundTint="#8d99ae"
+                android:text="Contine"
+                android:textColor="#FFFFFF"
+                android:textAllCaps="false"
+                app:cornerRadius="10.40dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

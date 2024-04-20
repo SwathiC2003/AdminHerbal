@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <color name="Magicmint">#b4f4d2</color>
+    <color name="irishgreen">#139F38</color>
+    <color name="frost">#E5F8E2</color>
+    <color name="RegentGrey">#8d99ae</color>
+    <color name="blue">#0000FF</color>
+    <color name="cream">#F9E4B7</color>
+    <color name="yellow">#FFFEC4</color>
+    <color name="orange">#FFD6A5</color>
+    <color name="pink">#FF9B9B</color>
+</resources>
